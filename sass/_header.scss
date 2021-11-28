@@ -1,0 +1,22 @@
+.list-conteiner{
+    ul{
+        width: 100%;
+        padding-left: 150px;
+        li{ 
+            width: 100;
+            text-align: center;
+            margin:10px 20px ;
+            a{  
+                padding:0;
+
+            }
+            &:hover {
+                border-top:2px solid $c-orange;
+                border-bottom:2px solid $c-orange;
+            }
+
+        }
+    }
+
+
+}
