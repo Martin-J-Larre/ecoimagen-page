@@ -1,22 +1,22 @@
 .list-conteiner{
+    width: auto;
+    height: 100px;
     ul{
         width: 100%;
-        padding-left: 150px;
-        li{ 
-            width: 100;
-            text-align: center;
-            margin:10px 20px ;
-            a{  
-                padding:0;
-
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        li{
+            padding:0 5px;
+            a{
+                font-weight: 500;
+                padding: 0;
             }
             &:hover {
                 border-top:2px solid $c-orange;
                 border-bottom:2px solid $c-orange;
             }
-
         }
     }
-
-
 }
