@@ -32,7 +32,28 @@
 }
 
 .qs-container {
-  margin-top: 20px;
+  margin-top: 40px;
+}
+
+.qs-container .column-1 img {
+  margin-bottom: 30px;
+}
+
+.qs-container .column-2 {
+  padding-top: 60px;
+}
+
+.qs-container .column-2 img {
+  margin-bottom: 30px;
+}
+
+.qs-container .column-text h1 {
+  color: #ea5c1d;
+  text-align: center;
+}
+
+.qs-container .column-text p {
+  font-size: 18px;
 }
 
 body {
