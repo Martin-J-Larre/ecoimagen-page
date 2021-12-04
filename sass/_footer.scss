@@ -1,0 +1,29 @@
+.footer-color{
+    background: $c-orange;
+    .main-div{
+        .col-logo-footer{
+            border-right: 2px solid #fff; //Duscar el color
+            img{
+                width: 150px;
+                margin:10px 100px; //Este centrarlo con Grid, flexbox o ver como?
+            }
+        }
+        .footer-col{
+            h5{
+                color: #fff;
+                margin-left: 60px;
+            }
+            ul{
+                margin-left: 50px;
+                li{
+                    padding: 10px;
+                    a{
+                        text-decoration: none;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+
+    }
+}

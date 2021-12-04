@@ -1,0 +1,12 @@
+.productos{
+    margin-top: 30px;
+    h2{
+        color: $c-orange;
+        text-align: center;
+    }
+    .caja-vacia{
+        height: 70vh;
+        background: $c-orange;
+        margin:40px 0;
+    }
+}

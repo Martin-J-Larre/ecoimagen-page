@@ -56,6 +56,52 @@
   font-size: 18px;
 }
 
+.productos {
+  margin-top: 30px;
+}
+
+.productos h2 {
+  color: #ea5c1d;
+  text-align: center;
+}
+
+.productos .caja-vacia {
+  height: 70vh;
+  background: #ea5c1d;
+  margin: 40px 0;
+}
+
+.footer-color {
+  background: #ea5c1d;
+}
+
+.footer-color .main-div .col-logo-footer {
+  border-right: 2px solid #fff;
+}
+
+.footer-color .main-div .col-logo-footer img {
+  width: 150px;
+  margin: 10px 100px;
+}
+
+.footer-color .main-div .footer-col h5 {
+  color: #fff;
+  margin-left: 60px;
+}
+
+.footer-color .main-div .footer-col ul {
+  margin-left: 50px;
+}
+
+.footer-color .main-div .footer-col ul li {
+  padding: 10px;
+}
+
+.footer-color .main-div .footer-col ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 body {
   padding: 0;
   margin: 0;
