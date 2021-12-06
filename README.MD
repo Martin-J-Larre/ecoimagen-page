@@ -5,6 +5,5 @@
 * Ver que hacer con la sección Productos
 * Ver que hacer con la sección Servicios
 * Ver que hacer con la sección Contacto/Formulario
-* Hacer el Footer
 * Ver el favicons
 
