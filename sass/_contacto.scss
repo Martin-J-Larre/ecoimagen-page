@@ -4,17 +4,27 @@
   margin-left: 10%;
 
   padding-top: 9vh;
+  @media only screen and (max-width: 900px) {
+    padding-top: 2px;
+  }
+  @media only screen and (max-width: 900px) {
+    margin: 0px;
+    font-size: 2em;
+    text-align: center;
+  }
 }
 .ContactoForm {
   margin-bottom: 30px;
   display: flex;
+  @media only screen and (max-width: 900px) {
+    justify-content: center;
+  }
   .Formulario {
     width: 40%;
-    margin-left: 8%;
+    margin-left: 80px;
     padding: 3vh;
-
     @media only screen and (max-width: 900px) {
-      width: 80%;
+      margin-left: 2%;
     }
     .inputForm {
       display: flex;
@@ -41,6 +51,10 @@
       height: 150px;
       width: 80%;
       background-color: rgba(236, 234, 234, 0.856);
+
+      @media only screen and (max-width: 900px) {
+        width: 240px;
+      }
     }
     .divBoton {
       #botonEnviar {
@@ -53,7 +67,25 @@
           background-color: #d16d59;
           transform: scale(0.98);
         }
+        @media only screen and (max-width: 900px) {
+          height: 40px;
+          width: 170px;
+        }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .imgContacto {
+    margin: 2px;
+    display: none;
+  }
+
+  .ContactoForm {
+    display: block;
+  }
+  .inputForm {
+    width: 300px;
   }
 }
