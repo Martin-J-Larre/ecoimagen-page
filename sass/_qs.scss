@@ -1,17 +1,17 @@
 .qs-container {
-  margin-top: 40px;
+  margin-top: 50px;
   @media only screen and (max-width: 900px) {
     display: none;
   }
   .column-1 {
     img {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
   }
   .column-2 {
-    padding-top: 60px;
+    padding-top: 50px;
     img {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
   }
   .column-text {
@@ -21,6 +21,8 @@
     }
     p {
       font-size: 18px;
+      margin-top: 15px;
+      text-align: justify !important;
       @media only screen and (max-width: 900px) {
         display: none;
       }

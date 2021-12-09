@@ -38,7 +38,7 @@
 }
 
 .qs-container {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -48,15 +48,15 @@
 }
 
 .qs-container .column-1 img {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .qs-container .column-2 {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .qs-container .column-2 img {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .qs-container .column-text h1 {
@@ -66,6 +66,8 @@
 
 .qs-container .column-text p {
   font-size: 18px;
+  margin-top: 15px;
+  text-align: justify !important;
 }
 
 @media only screen and (max-width: 900px) {
