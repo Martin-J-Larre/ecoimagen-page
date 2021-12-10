@@ -61,13 +61,13 @@
 
 .qs-container .column-text h1 {
   color: #ea5c1d;
-  text-align: center;
+  text-align: start;
 }
 
 .qs-container .column-text p {
   font-size: 18px;
   margin-top: 15px;
-  text-align: justify !important;
+  text-align: start !important;
 }
 
 @media only screen and (max-width: 900px) {

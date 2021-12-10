@@ -17,12 +17,12 @@
   .column-text {
     h1 {
       color: $c-orange;
-      text-align: center;
+      text-align: start;
     }
     p {
       font-size: 18px;
       margin-top: 15px;
-      text-align: justify !important;
+      text-align:start !important;
       @media only screen and (max-width: 900px) {
         display: none;
       }
